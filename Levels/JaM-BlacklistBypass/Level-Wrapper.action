@@ -22,7 +22,7 @@
     {
       "fallback": true,
       "type": "channel",
-      "message": "{a!ae;--field1name=\"Level\";--field1value=\"{user.level}\";--field1inline;--field2name=\"Experience\";--field2value=\"{math;{user.levelXP}-{user.remainingXP}+{user.nextLevelXP}}/{user.nextLevelXP} | `{math;{user.remainingXP}-{user.nextLevelXP}+{user.levelXP}}` total.\";--field2inline;--field3name=\"Rank\";--field3value=\"[Click Here](https://atlas.bot/leaderboard/{guild.id})\";--field3inline;--icon=\"{user.avatarURL}\";--name=\"{user.username}\"}",
+      "message": "{a!ae;--field1name="Level";--field1value="{user.level}";--field1inline;--field2name="Experience";--field2value="{math;{user.levelXP}-{user.remainingXP}+{user.nextLevelXP}}/{user.nextLevelXP} | `{math;{user.nextLevelXP}-{user.remainingXP}+{user.levelXP}+{user.levelXP}}` total.";--field2inline;--field3name="Rank";--field3value="[Click Here](https://atlas.bot/leaderboard/{guild.id})";--field3inline;--icon="{user.avatarURL}";--name="{user.username}"}",
       "id": "60da33a9eaa945873b501f19"
     }
   ],
